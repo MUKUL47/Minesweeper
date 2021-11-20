@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "minesweeper",
+    "slug": "minesweeper",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "minesweeper"
+}
