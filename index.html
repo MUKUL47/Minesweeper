@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="controls">
+      <p id="total_mines"></p>
+      <div>
+        Configuration :
+        <select></select>
+      </div>
+      <div>
+        Zoom :
+        <input
+          type="range"
+          oninput="updateNodeSize()"
+          max="70"
+          min="10"
+          value="24"
+        />
+      </div>
+      <button onclick="restart()">Restart</button>
+    </div>
+    <div id="minesweeper"></div>
+  </body>
+  <script src="index.js"></script>
+</html>
