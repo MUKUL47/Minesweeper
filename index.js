@@ -1,7 +1,7 @@
 const { updateNodeSize, restart } = (() => {
   class MinesweeperService {
     mines = [];
-    mineProbability = { from: 0.2, outOf: 1.5 };
+    mineProbability = { from: 0.2, outOf: 0.6 };
     config = 8;
     flaggedField = Math.random();
     cb;
